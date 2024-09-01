@@ -1,0 +1,62 @@
+.Calling-section{
+    /* background-color: rgb(1, 1, 46); */
+    /* background-color: rgb(1, 1, 46); */
+    background-color: #15142f;
+    min-height: 20vh;
+    width: 100%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem;
+}
+
+.Calling-section img{
+    height: 12rem;
+}
+.Calling-section h2{
+    color: white;
+    margin-top: 2rem;
+}
+.Calling-section h1{
+    color: white;
+    font-size: 3rem;
+    margin-top: .5rem;
+}
+.Calling-section p{
+    color: white;
+    margin-top: .5rem;
+    text-align: center;
+}
+.Calling-section button{
+    /* background-image: linear-gradient(rgb(0, 0, 117), rgb(2, 2, 229)); */
+    /* background-image: linear-gradient(250deg, #0867da 19%, #021d7c 100%); */
+    background-color: orange;
+    height: 3rem;
+    width: 8rem;
+    border-radius: 50px;
+    border: none;
+    color: white;
+    font-size: 1.2rem;
+    margin-top: 1rem;
+}
+.Calling-section button:hover{
+    /* background-image: linear-gradient(35deg, orange 19%, rgba(203, 138, 17, 0.534) 100%); */
+    transform: scale(1.02);
+    transition: 1s;
+}
+/* medai query   */
+@media (max-width:500px){
+    .Calling-section img{
+        height: 8rem;
+    }
+    .Calling-section h2{
+        margin-top: 1.5rem;
+    }
+    .Calling-section h1{
+        color: white;
+        font-size: 2rem;
+    }
+
+}

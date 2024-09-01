@@ -1,0 +1,211 @@
+#head-section-about-us-page{
+    background-image: url("../../assets/images/about/c-about-head.png");
+    min-height: 50vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/*  about text/////////////////////////////////////////////////////// */
+.who-we-are-about-us-page {
+    min-height: 20vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.who-we-are-about-us-page h2 {
+    font-size: 4rem;
+    color: rgb(1, 1, 112);
+    margin-bottom: 2rem;
+}
+/*end //////////// */
+
+
+/* about section */
+.about-section-cantainer-about-us-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 50vh;
+    width: 100%;
+
+}
+
+.about-section-about-us-page {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    min-height: 50vh;
+    width: 90%;
+    gap: 6rem;
+}
+
+.about-section-image-about-us-page {
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.about-section-image-innerdiv-about-us-page {
+    border: 3px solid gold;
+    height: 80%;
+    width: 90%;
+}
+
+.about-section-image-innerdiv-about-us-page img {
+    height: 100%;
+    width: 100%;
+    top: 50%;
+    right: 50%;
+    transform: translate(-30px, 30px);
+}
+
+.about-section-text-about-us-page {
+    display: flex;
+    justify-content:start;
+    align-items: center;
+    flex-direction: column;
+}
+
+.about-section-text-about-us-page h5 {
+    font-size: 1.2rem;
+    align-self: flex-start;
+    padding-bottom: 0.3rem;
+    color: darkblue;
+}
+
+.about-section-text-about-us-page h2 {
+    font-size: 2.5rem;
+}
+
+.about-section-text-about-us-page p {
+    font-size: 1rem;
+    text-align: justify;
+    padding-top: 2.5rem;
+}
+
+.about-section-mail-about-us-page {
+    align-self: flex-start;
+    font-size: 1rem;
+    font-weight: 700;
+    text-decoration: none;
+    padding: 1.5rem 0rem 2rem 0rem;
+}
+.about-section-mail-about-us-page a{
+    color: darkblue;
+}
+.btn-about-us-page-a{
+    text-decoration: none;
+    align-self: flex-start;
+    
+}
+.about-section-text-about-us-page button {
+    --color:  #15142f;
+    padding: 0.8em 1.7em;
+    background-color: transparent;
+    border-radius: .3em;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    transition: .5s;
+    font-weight: 400;
+    font-size: 17px;
+    border: 1px solid;
+    font-family: inherit;
+    text-transform: uppercase;
+    color: var(--color);
+    z-index: 1;
+    justify-self: start;
+   }
+   
+   .about-section-text-about-us-page button::before, .about-section-text-about-us-page button::after {
+    content: '';
+    display: block;
+    width: 50px;
+    height: 50px;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    border-radius: 50%;
+    z-index: -1;
+    background-color: var(--color);
+    transition: 1s ease;
+   }
+   
+   .about-section-text-about-us-page button::before {
+    top: -1em;
+    left: -1em;
+   }
+   
+   .about-section-text-about-us-page button::after {
+    left: calc(100% + 1em);
+    top: calc(100% + 1em);
+   }
+   
+   .about-section-text-about-us-page button:hover::before, .about-section-text-about-us-page button:hover::after {
+    height: 410px;
+    width: 410px;
+   }
+   
+   .about-section-text-about-us-page button:hover {
+    color:white;
+   }
+   
+   .about-section-text-about-us-page button:active {
+    filter: brightness(.8);
+   }
+   .about-section-image{
+    display: flex;
+    /* align-items: center; */
+    padding-top: 1rem;
+  }
+/* end//////////////////////////////////////////////////////////////// */
+
+
+
+/* merdia quary/////////////////////////////////////////////////////////////////////////// */
+  /* 8500000000000000000000000000000000000000000000000000000000000000000000000 */
+  @media(max-width:1150px) {
+    .about-section-image{
+        /* height: 80%;
+        width: 100%; */
+      }
+  }
+  @media(max-width:850px) {
+      .about-section-about-us-page {
+          display: grid;
+          grid-template-rows: repeat(30vh, 1fr);
+          grid-template-columns: 1fr;
+          gap: 2rem;
+      }
+      .about-section-image{
+        display: flex;
+        align-items: center;
+        margin-left: 4rem;
+        padding-top:0;
+    }
+      .about-section-image-about-us-page{
+          display: flex;
+      }
+      .about-section-text-about-us-page{
+           grid-row-start:1 ;
+          grid-row-start:2 ; 
+          padding: .7rem;
+      }
+      
+      .who-we-are-about-us-page h2 {
+          font-size: 3rem;
+      }
+      .about-section-about-us-page {
+        gap: 2rem;
+    }
+  }
+@media (max-width:600px) {
+    .who-we-are-about-us-page h2 {
+        font-size: 2.5rem;
+    }
+    
+} 

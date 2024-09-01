@@ -1,0 +1,127 @@
+.home-about-us-section{
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    min-height: 80vh;
+    width: 100%;
+    display: flex;
+    align-items: center ;
+  }
+  
+  .about-home-us {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    min-height: 75vh;
+    width: 98%;
+    background-color: #15142f;
+    border-radius: 0rem 20rem 20rem 0rem;
+    overflow: hidden;
+  }
+  
+  .about-home-us-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+    color: white;
+  }
+  
+  .about-home-us-text h5 {
+    font-size: 1.5rem;
+    align-self: flex-start;
+  }
+  
+  .about-home-us-text h1 {
+    font-size: 2rem;
+  }
+  
+  .about-home-us-text p {
+    font-size: 1rem;
+    /* text-align: justify; */
+  }
+  
+  .about-home-us-image {
+    padding: 1rem;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+  }
+  
+  .about-home-us-image img {
+    width: 65%;
+    height: 60vh;
+  }
+  
+  /* medai query  */
+  
+  @media (max-width:1280px){
+    .about-home-us-image img{
+      height: 30rem;
+      width: 30rem;
+  }
+  .about-home-us {
+    min-height: 50vh;
+  }
+    }
+   @media (max-width:1024px){
+    .about-home-us {
+      min-height: 50vh;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      border-radius:0;
+    }
+    .about-home-us-text {
+      justify-content: center !important;
+      align-items: center !important;
+      padding: 2rem;
+    }
+    .about-home-us-image{
+      justify-content: center;
+      margin-bottom: 2rem;
+  }
+  .about-home-us-text h1 {
+    align-self: flex-start;
+  }
+  .about-home-us-image img{
+    height: 30rem;
+    width: 30rem;
+}
+   }
+   @media (max-width:700px){
+    .about-home-us-image img{
+      height: 28rem;
+      width: 28rem;
+  }
+  }
+  @media (max-width:600px){
+    .about-home-us-image img{
+      height: 25rem;
+      width: 25rem;
+  }
+  }
+  @media (max-width:500px){
+    .about-home-us-image img{
+      height: 23rem;
+      width: 21rem;
+  }
+  }
+  @media (max-width:400px){
+    .about-home-us-image img{
+      height: 20rem;
+      width: 18rem;
+  }
+  }
+  @media (max-width:350px){
+    .about-home-us-image img{
+      height: 17rem;
+      width: 15rem;
+  }
+  }
+  @media (max-width:270px){
+    .about-home-us-image img{
+      height: 14rem;
+      width: 12rem;
+  }
+  }

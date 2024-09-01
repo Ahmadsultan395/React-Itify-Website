@@ -1,0 +1,125 @@
+/* head section */
+.main-section{
+    background-image: url(../../../assets/images/head/c-hero2.jpg);
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+
+.head-part{
+    min-height:90%;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10rem;
+}
+.head-part-content{
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content:end;
+    align-items: center;
+}
+.head-part-content h1{
+font-size: 7rem;
+color: orange;
+text-shadow: 1px 1px 1px black;
+text-align: center;
+}
+.head-part-content h2{
+font-size: 3rem;
+color: white;
+text-align: center;
+}
+.head-part-content p{
+font-size: 1.5rem;
+color: white;
+font-weight: 500;
+text-align: center;
+}
+.btn-get-started{
+    background-color: transparent;
+    height: 3rem;
+    width: 8rem;
+    border-radius:50px;
+    outline: none;
+    border: none;
+    margin-top: 2rem;
+    background-color: orange;
+    margin-bottom: 2rem;
+    -webkit-box-reflect: below 1px linear-gradient(transparent,rgba(0, 0, 0, 0.23));
+}
+.btn-get-started a{
+    color: white;
+    text-decoration: none;
+    height: 3rem;
+    width: 8rem;
+}
+.btn-get-started:hover{
+   transition: 1s;
+   transform: scale(1.1);
+   font-size: 1.1rem;
+}
+.head-part-image img{
+    height: 30rem;
+    width: 29rem;
+    animation-name:imageShake;
+    animation-duration:1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    opacity: 90%;
+}
+@keyframes imageShake{
+    0%{
+        transform: translateY(10px);
+    }
+    100%{
+        transform: translateY(-10px);
+    }
+}
+/* media query */
+@media (max-width:850px){
+    .head-part-image img{
+        height: 22rem;
+        width: 22rem;
+    }
+    .head-part{
+        gap: 6rem;
+    }
+}
+
+@media (max-width:750px){
+    .head-part{
+        flex-direction: column-reverse;
+    }
+    .main-section{
+        padding-top: 3rem;
+        padding-bottom:3rem ;
+    }
+}
+@media (max-width:500px){
+    .head-part-image img{
+        height: 18rem;
+        width: 18rem;
+    }
+}
+@media (max-width:600px){
+    .head-part-content h1{
+        font-size: 5rem;
+        }
+        .head-part-content h2{
+        font-size: 2.3rem;
+        }
+}
+
+@media (max-width:330px){
+    .head-part-image img{
+        height: 14rem;
+        width: 14rem;
+    }
+}

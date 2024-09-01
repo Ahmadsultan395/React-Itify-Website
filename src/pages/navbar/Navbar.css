@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
+.logo-img{
+    height: 3rem;
+    width: 5rem;
+    padding: 0%;
+    margin: 0%;
+}
+*{
+    /* font-family: muli; */
+}
+.nav-main{
+background-color: whitesmoke;
+position: fixed;
+left: 0;
+top: 0;
+right: 0;
+z-index: 99;
+border-radius: 1.3rem;
+width: 90%;
+margin-top: .2rem;
+backdrop-filter: blur(15px);
+/* border: 1px solid white; */
+box-shadow: 2px 2px 5px orange;
+}
+.nav-link{
+    color: black;
+}
+.itify-text{
+    font: 4rem;
+    color: orange;
+    text-shadow: 2px 2px 2px white;
+}
+nav li{
+font-size: 1.3rem !important;
+}
+.nav-link.active{
+    border-bottom: 2px solid orange;
+    color: orange !important;
+    font-weight: 600;
+    /* text-shadow: .5px .5px .1px black; */
+}
+.nav-link:hover{
+    color:blue;
+}
+
+@media (max-width:991px) {
+    .nav-link.active{
+        border: none;
+    }
+    .logo-img{
+        height: 2rem;
+        width: 4rem;
+    }
+    .navbar-toggler{
+        font-size: 1rem;
+        height: 2.2rem;
+        width: 2.5rem;
+        padding: .1rem;
+    }
+    #navbarSupportedContent{
+        /* background-color: red; */
+        text-align: center;
+    }
+}
+@media (max-width:700px) {
+    .navbar-toggler{
+        font-size: .8rem;
+        height: 1.9rem;
+        width: 2.2rem;
+        padding: .1rem;
+    }
+}

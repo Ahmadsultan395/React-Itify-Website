@@ -1,0 +1,110 @@
+.head-card-section {
+    min-height: 50vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: rgb(214, 211, 211);
+}
+
+.head-card {
+    min-height: 50vh;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-basis: 100%;
+    gap: 2rem;
+    padding: 2rem;
+}
+
+/* home-cards */
+.card {
+    cursor: pointer;
+    min-height: 25vh;
+    width: 280px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 2rem;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.336) 0px 20px 25px -5px, rgba(0, 0, 0, 0.445) 0px 10px 10px -5px;
+}
+
+.card img {
+    height: 5rem;
+    margin-bottom: 2rem;
+}
+
+.card h1 {
+    color: rgb(2, 2, 68);
+    font-size: 1.5rem;
+    font-family: 600;
+    margin-bottom: 1rem;
+}
+
+.card p {
+    font-size: 1rem;
+}
+
+.card:hover {
+    background-color: orange;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.61);
+    transform: scale(1.03);
+    color: white;
+    transition: 0.3s;
+}
+
+.card:hover h1 {
+    color: white;
+    transition: 0.3s;
+}
+
+.card:not(:hover) {
+    background-color: white;
+    transition: 0.3s;
+}
+
+@media (max-width: 1200px) {
+    .head-card {
+        width: 80%;
+    }
+
+    .card {
+        width: 45%;
+    }
+}
+@media (max-width: 1025px) {
+    .head-card {
+        width: 80%;
+    }
+
+    .card {
+        width: 45%;
+        min-height: 20vh !important;
+    }
+}
+@media (max-width: 965px) {
+    .head-card {
+        width: 90%;
+    }
+
+    .card {
+        width: 45%;
+    }
+}
+
+@media (max-width: 820px) {
+    .card {
+        width: 45%;
+    }
+   
+}
+@media (max-width: 620px) {
+    .card {
+        width: 100%;
+    }
+   
+}

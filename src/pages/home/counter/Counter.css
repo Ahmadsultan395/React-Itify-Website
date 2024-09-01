@@ -1,0 +1,38 @@
+.counter-caontainer{
+
+}
+.counter {
+    cursor: pointer;
+    background-color: #FFFFFF;
+    padding: 20px 10px;
+    border-radius: 5px;
+    box-shadow: rgba(17, 17, 26, 0.324) 0px 4px 10px, rgba(17, 17, 26, 0.16) 0px 8px 15px;
+    border-radius: 0 3rem 0 0;
+}
+
+.count-title {
+    font-size: 40px;
+    font-weight: normal;
+    margin-top: 10px;
+    margin-bottom: 0;
+    text-align: center;
+}
+.counter-number{
+    font-size: 3rem;
+}
+.count-text {
+    font-size: 1rem;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.fa-2x {
+    margin: 0 auto;
+    float: none;
+    display: table;
+    color: #FF5E00;
+    font-size:3rem;
+    margin-bottom: 2rem;
+}

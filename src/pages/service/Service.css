@@ -1,0 +1,128 @@
+#head-section-our-service-page {
+    background-image: url("../../assets/images/service/c-services.jpg");
+    min-height: 50vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 4rem;
+}
+
+/* heading/////////// */
+.who-we-are-our-service-page {
+    /* background-color: aqua; */
+    min-height: 30vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.who-we-are-our-service-page h2 {
+    font-size: 2.5rem;
+    font-family: 500;
+    color:rgb(1, 1, 117);
+    padding-bottom: 1.5rem;
+    text-align: center;
+}
+.who-we-are-our-service-page p{
+    padding: 0 1.5rem;
+    font-size: 1.3rem;
+    text-align: center;
+    font-weight: 500;
+}
+
+/* emd///////////// */
+
+
+
+/* service -body part 2 section  */
+.service-body2-heading{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+    margin-bottom: 3rem;
+    padding:0 2rem;
+}
+.service-body2-heading h2{
+    font-size:1.5rem ;
+    margin-bottom: 2rem;
+    color: #0d0a56;
+}
+.service-body2-heading h1{
+    font-size:2.5rem ;
+    text-align: center;
+}
+.service-body-part2-section{
+    min-height: 40vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.service-body-part2-section-div{
+    min-height: 40vh;
+    width: 95%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+}
+.service-body2-cards{
+    cursor: pointer;
+    background-color: #15142f;
+min-height: 20vh;
+width: 290px;
+border-radius:10px;
+color: white;
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 1rem 2rem;
+}
+.service-body2-cards:hover{
+    background-color: #1c1c4e;
+    transition: 0.03s;
+    transform: scale(1.03) !important;
+}
+.service-body2-cards h1{
+    font-size:4rem;
+}
+.service-body2-cards h2{
+    font-size:2rem;
+}
+.service-body2-cards p{
+    font-size:1.2rem;
+}
+
+
+
+
+
+
+
+@media (max-width:800px) {
+    .service-body2-heading h1{
+        font-size:2rem ;
+    }
+}
+
+@media (max-width:600px) {
+    .service-body2-heading h1{
+        font-size:1.5rem ;
+    }
+}
+@media (max-width:627px) {
+    .service-body2-cards{
+        width: 90%;
+    }
+}
+@media (max-width:300px) {
+    .service-body2-heading h2{
+        font-size:1.2rem ;
+    }
+}

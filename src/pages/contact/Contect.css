@@ -1,0 +1,52 @@
+
+/* head section//////////////////////////////////// */
+
+#head-section-contact-us-page {
+    background-image: url("../../assets//images/contact-us/c-contact.jpg");
+    /* background-color: #15142f; */
+    min-height: 50vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 4rem;
+}
+
+
+.who-we-are-contact-us-page {
+  /* background-color: aqua; */
+  min-height: 30vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  /* margin-bottom: 3rem; */
+}
+
+.who-we-are-contact-us-page h2 {
+  font-size: 3rem;
+  color: rgb(1, 1, 88);
+  font-family: 500;
+  text-align: center;
+}
+
+.who-we-are-contact-us-page p {
+  font-size: 1.3rem;
+}
+
+@media (max-width:700px) {
+  .who-we-are-contact-us-page h2 {
+    font-size: 2.7rem;
+  }
+}
+@media (max-width:600px) {
+  .who-we-are-contact-us-page h2 {
+    font-size: 2.3rem;
+  }
+}
+@media (max-width:400px) {
+  .who-we-are-contact-us-page h2 {
+    font-size: 2rem;
+  }
+}
